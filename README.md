@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import FLOAT16_SIGN_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sign-mask@esm/index.mjs';
+import FLOAT16_SIGN_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sign-mask@v0.1.1-esm/index.mjs';
 ```
 
 #### FLOAT16_SIGN_MASK
@@ -84,7 +84,7 @@ var bool = ( FLOAT16_SIGN_MASK === 0x8000 );
 <script type="module">
 
 import toWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-base-to-word@esm/index.mjs';
-import FLOAT16_SIGN_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sign-mask@esm/index.mjs';
+import FLOAT16_SIGN_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sign-mask@v0.1.1-esm/index.mjs';
 
 var x = -11.5;
 var w = toWord( x ); // 1 10010 0111000000
