@@ -46,6 +46,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+FLOAT16_SIGN_MASK = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sign-mask@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float16-sign-mask/tags). For example,
+
+```javascript
 FLOAT16_SIGN_MASK = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sign-mask@v0.1.1-umd/browser.js' )
 ```
 
@@ -58,7 +63,7 @@ var FLOAT16_SIGN_MASK = require( 'path/to/vendor/umd/constants-float16-sign-mask
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sign-mask@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sign-mask@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -106,7 +111,7 @@ var bool = ( FLOAT16_SIGN_MASK === 0x8000 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-base-to-word@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sign-mask@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sign-mask@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
